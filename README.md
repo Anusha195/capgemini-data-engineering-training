@@ -1,37 +1,34 @@
-# Data Engineering Training - Week 0
+This repository contains the work I have done as part of my data engineering training.
 
-This repository contains all the concepts and hands-on practice completed during the data engineering training.
+WEEK 0
 
-## WEEK 0
+Phase 0
 
-### Phase 0: Learning Path
+In this phase, I completed the Databricks Associate Data Engineering course.  
+Through this, I got a basic understanding of data engineering concepts and how Databricks works.
 
-- Completed the Databricks Associate Data Engineering course
-- Gained understanding of:
-  - Data Engineering fundamentals
-  - Databricks environment
-  - Basic data workflows
+Phase 1
 
-### Phase 1: SQL & PySpark Practice
+In this phase, I worked on basic SQL and PySpark exercises.
 
-#### Topics Covered
-- SELECT
-- FILTER (WHERE clause)
-- GROUP BY
-- Aggregations (COUNT)
+Topics covered:
+SELECT
+WHERE (Filter)
+GROUP BY
+COUNT
 
-#### Key Learnings
-- Understanding how GROUP BY works for data aggregation
-- Filtering data using conditions
-- Selecting specific columns from datasets
-- Mapping SQL queries to PySpark DataFrame operations
+What I learned:
+How to retrieve and filter data using SQL
+How GROUP BY is used to summarize data
+Writing the same logic in PySpark using DataFrames
+Basic difference between SQL queries and PySpark operations
 
-#### SQL to PySpark Mapping
-- SELECT → select()
-- WHERE → filter()
-- GROUP BY → groupBy()
-- COUNT → count()
+SQL to PySpark understanding:
+SELECT → select()
+WHERE → filter()
+GROUP BY → groupBy()
+COUNT → count()
+  
+Summary
 
-## Summary
-
-This week helped build a strong foundation in SQL and PySpark, focusing on basic data querying and transformation techniques.
+Overall, this week helped me understand the basics of SQL and how similar operations can be done using PySpark.
