@@ -2,11 +2,9 @@
 
 This repository contains all the concepts and hands-on practice completed during the data engineering training.
 
----
-
 ## WEEK 0
 
-### ➤ Phase 0: Learning Path
+### Phase 0: Learning Path
 
 - Completed the Databricks Associate Data Engineering course
 - Gained understanding of:
@@ -14,9 +12,7 @@ This repository contains all the concepts and hands-on practice completed during
   - Databricks environment
   - Basic data workflows
 
----
-
-### ➤ Phase 1: SQL & PySpark Practice
+### Phase 1: SQL & PySpark Practice
 
 #### Topics Covered
 - SELECT
@@ -35,8 +31,6 @@ This repository contains all the concepts and hands-on practice completed during
 - WHERE → filter()
 - GROUP BY → groupBy()
 - COUNT → count()
-
----
 
 ## Summary
 
