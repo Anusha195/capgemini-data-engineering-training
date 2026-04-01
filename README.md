@@ -1,13 +1,13 @@
 This repository contains the work I have done as part of my data engineering training.
 
-WEEK 0
+### WEEK 0
 
-Phase 0
+### Phase 0
 
 In this phase, I completed the Databricks Associate Data Engineering course.  
 Through this, I got a basic understanding of data engineering concepts and how Databricks works.
 
-Phase 1
+### Phase 1
 
 In this phase, I worked on basic SQL and PySpark exercises.
 
@@ -33,6 +33,8 @@ Summary
 
 Overall, this week helped me understand the basics of SQL and how similar operations can be done using PySpark.
 
+### Phase 2
+
 In this phase, I continued working on SQL and PySpark by solving more practical problems and writing queries for real-world scenarios.
 
 Topics covered:
@@ -49,7 +51,7 @@ Understanding how real-world queries are structured
 Writing equivalent logic in PySpark using DataFrame operations
 Improved confidence in handling data using both SQL and PySpark
 
-Phase 3
+### Phase 3
 
 In this phase, I learned PySpark ETL and how data is processed step by step.
 
@@ -65,7 +67,7 @@ Summary
 This phase helped me understand how ETL works in PySpark and how data is processed in real workflows.
 
 
-Phase 3A – Data Cleaning
+### Phase 3A – Data Cleaning
 
 In this phase, I understood that real-world data is messy and needs proper cleaning.
 
