@@ -30,9 +30,9 @@ In this phase, I worked with a messy dataset and applied data cleaning technique
 
 ## Project Structure
 phase3/
-├── pyspark_codes.py
-├── outputs/
-└── README.md
+pyspark_codes.py
+outputs/
+README.md
 
 ## Key Learnings
 - Real-world data is often messy
