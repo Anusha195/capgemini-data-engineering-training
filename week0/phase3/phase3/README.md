@@ -69,5 +69,6 @@ Thinking like a data engineer instead of writing isolated queries
 
 ## Files in this Folder
 
-codes.py → PySpark implementation
-outputs/ → Output results/screenshots
+pyspark_codes.py - PySpark implementation,
+pyspark_phase3_problem_statement - has details about this phase3, 
+outputs/ - Output screenshots
