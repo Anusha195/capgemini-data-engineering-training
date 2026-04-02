@@ -60,6 +60,8 @@ Understanding difference between SQL queries and DataFrame operations
 
 
 ## Files in this Folder
-sql started.sql → SQL queries and table setup  
-pyspark starter code.py → PySpark implementation  
-outputs/ → Output screenshots  
+sql starter code.sql → SQL queries and table setup  
+pyspark starter code.py → PySpark setup implementation
+pyspark_codes.py → pyspark task solution scodes
+sql_codes.txt → sql task solution queries
+outputs/ → Output screenshots for both sql and pyspark
