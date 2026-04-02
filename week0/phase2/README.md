@@ -1,25 +1,61 @@
-## Phase 2 – SQL to PySpark (Bridge Pack)
+### Phase 2 – SQL to PySpark (Revised Bridge Pack)
 
-### Learned:
+Objective
+The objective of this phase was to bridge the gap between basic SQL knowledge and practical PySpark usage by performing real-world data transformations, including joins, filtering, and aggregations.
 
-* Converting SQL queries into PySpark transformations
-* Working with joins, aggregations, and filtering in PySpark
-* Handling real-world scenarios like customer analysis and revenue calculation
-* Performing basic data cleaning using `dropna()`
-* Using functions like `groupBy()`, `agg()`, `orderBy()`, and `join()`
+## Problem Summary
+We worked with sample datasets like customers and sales (used instead of orders). The tasks involved:
+Performing aggregations such as total and average spending
+Identifying top customers based on spending
+Finding customers with no transactions
+Generating city-wise revenue insights
+Filtering and sorting data for meaningful analysis
 
-### Challenges:
+## Approach
 
-* Mapping SQL joins correctly to PySpark joins
-* Understanding aggregation functions in PySpark
-* Identifying correct column names and adapting queries accordingly
+1. Loaded datasets into PySpark DataFrames
+2. Performed initial data exploration using show() and printSchema()
+3. Applied basic data cleaning by removing rows with null customer_id
+4. Wrote SQL queries for each problem
+5. Converted SQL queries into equivalent PySpark transformations
+6. Executed both SQL and PySpark queries and compared outputs
 
-### Implementation Details:
+## Key Transformations Used
+groupBy() → for grouping data
+agg() → for calculating sum, average, and count
+join() → to combine customer and sales data
+filter() → to apply conditions on data
+orderBy() → to sort results
+dropna() → to handle missing values
 
-* The file **pyspark_sql_pretraining_phase2_revised_bridge_back** file explains about the tasks that are done in this phase
-* All SQL and PySpark query solutions are implemented in **codes.py**
-* The outputs of each query are captured and stored in the **outputs** folder
+## Output / Results
+The following outputs were generated:
+Total spending per customer
+Top 3 customers based on total spend
+Customers with no sales
+City-wise revenue
+Average spending per customer
+Customers with multiple transactions
+Sorted list of customers by total spend
 
-### Summary:
+All outputs are stored in the outputs/ folder.
 
-This phase helped in bridging the gap between theoretical SQL knowledge and practical PySpark implementation. It improved my ability to work with real datasets and perform data transformations similar to real-world data engineering tasks.
+## Data Engineering Considerations
+Removed null values to ensure accurate aggregations
+Adjusted queries based on dataset differences (sales instead of orders)
+Verified results by comparing SQL and PySpark outputs
+
+Challenges Faced
+Translating SQL queries into PySpark syntax
+Understanding join operations in PySpark
+Handling dataset differences and column mappings
+
+ ## Learnings
+Mapping SQL operations to PySpark functions
+Importance of data cleaning before performing transformations
+Performing joins and aggregations on real datasets
+Writing efficient and readable PySpark code
+
+## Files in this Folder
+codes.py → Contains all SQL and PySpark implementations
+outputs/ → Contains query outputs and screenshots
