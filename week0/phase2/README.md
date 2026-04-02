@@ -57,5 +57,5 @@ Performing joins and aggregations on real datasets
 Writing efficient and readable PySpark code
 
 ## Files in this Folder
-codes.py → Contains all SQL and PySpark implementations
-outputs/ → Contains query outputs and screenshots
+codes.py → Contains PySpark implementations, 
+outputs/ → Contains query output screenshots
