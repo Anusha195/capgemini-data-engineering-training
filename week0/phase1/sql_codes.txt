@@ -1,0 +1,14 @@
+#Show all customers 
+select * from customers;
+
+#Show customers from Chennai
+select * from customers where city = 'Chennai';
+
+#Show customers with age > 25 
+select * from customers where age > 25;
+
+#Show only customer_name and city
+select customer_name, city from customers;
+
+#Count customers city-wise 
+select city, count(*) as total_customers from customers group by city;
