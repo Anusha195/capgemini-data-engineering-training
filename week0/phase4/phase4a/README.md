@@ -1,4 +1,4 @@
-# Phase 5 – Advanced Analytics and Segmentation using PySpark
+# Phase 4a – Advanced Analytics and Segmentation using PySpark
 
 ## Objective
 In this phase, the focus was on understanding customer behavior using advanced analytics techniques in PySpark.  
