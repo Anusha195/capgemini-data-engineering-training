@@ -25,9 +25,9 @@ The tasks included:
    - Identified top customers  
    - Found repeat customers  
 5. Created customer segments:
-   - Gold → total_spend > 10000  
-   - Silver → 5000–10000  
-   - Bronze → < 5000  
+   - Gold → total_spend > 100 
+   - Silver → 50–100
+   - Bronze → < 50
 6. Combined all insights into a final reporting table  
 7. Saved output to a writable path  
 
