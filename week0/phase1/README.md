@@ -1,4 +1,4 @@
-# Phase 1 – SQL & PySpark Basics
+### Phase 1 – SQL & PySpark Basics
 
 ## Objective
 In this phase, the goal is to understand basic data querying using SQL and apply the same operations using PySpark DataFrames.
