@@ -103,4 +103,7 @@ final_df = agg_df.withColumn(
 
 # TODO 6: Save output
 # final_df.write.mode("overwrite").csv("/tmp/phase6_output")
-final_df.write.mode("overwrite").csv("/tmp/phase6_output", header=True)
+final_df.write \
+    .mode("overwrite") \
+    .option("header", "true") \
+    .csv("/Volumes/workspace/default/phase5/phase6_output")
