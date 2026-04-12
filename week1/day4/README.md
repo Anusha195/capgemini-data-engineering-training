@@ -1,16 +1,26 @@
 # PySpark Data Processing – String, Regex, Null & Type Handling
 
 ## Objective  
-The aim of this work is to understand and implement different PySpark functions used for data cleaning and transformation. The focus is on handling string data, working with regular expressions, managing null values, and converting data types.
+The aim of this work is to understand and implement different PySpark functions used for data cleaning and transformation. The focus is on handling string data, working with regular expressions, managing null values, converting data types, and working with date/time data.
 
 ---
 
 ## Files Included  
 
-- `StringFunctions.ipynb` – Covers string manipulation functions  
-- `Regexfunc.ipynb` – Covers regular expression-based extraction and validation  
-- `NullFunctions.ipynb` – Covers handling missing or null values  
-- `strdataNum.ipynb` – Covers string to numeric conversions and data type handling  
+- `StringFunctions.ipynb`  
+  Contains implementation of PySpark string functions such as lower, upper, trim, substring, concatenation, and replacement.
+
+- `Regexfunc.ipynb`  
+  Focuses on pattern-based operations using regular expressions like extraction, validation, and replacement.
+
+- `NullFunctions.ipynb`  
+  Covers different approaches to handle missing values including fill, drop, and null checks.
+
+- `strdataNum.ipynb`  
+  Demonstrates conversion of string data into numeric types and handling invalid values.
+
+- `DateFunctions` (SQL / Notebook Task)  
+  Covers working with date and timestamp functions including extraction, formatting, and date calculations. :contentReference[oaicite:0]{index=0}  
 
 ---
 
@@ -18,12 +28,11 @@ The aim of this work is to understand and implement different PySpark functions 
 
 - PySpark (DataFrame API)  
 - Databricks Notebook Environment  
+- SQL (for Date & Time operations)
 
 ---
 
 ## 1. String Functions  
-
-This notebook focuses on cleaning and formatting string data.
 
 ### Operations performed:
 - Convert text to lowercase and uppercase  
@@ -33,18 +42,16 @@ This notebook focuses on cleaning and formatting string data.
 - Replace specific characters or patterns  
 
 ### Purpose:
-To standardize and clean textual data for further processing.
+To standardize and clean textual data.
 
 ---
 
 ## 2. Regex Functions  
 
-This notebook demonstrates the use of regular expressions in PySpark.
-
 ### Operations performed:
-- Extract specific patterns using `regexp_extract()`  
+- Extract patterns using `regexp_extract()`  
 - Replace patterns using `regexp_replace()`  
-- Validate formats like numbers or IDs  
+- Validate structured formats  
 
 ### Purpose:
 To handle complex pattern-based data extraction and validation.
@@ -53,8 +60,6 @@ To handle complex pattern-based data extraction and validation.
 
 ## 3. Null Handling Functions  
 
-This notebook focuses on managing missing or null values.
-
 ### Operations performed:
 - Replace null values using `COALESCE()`  
 - Fill missing data using `fillna()`  
@@ -62,52 +67,74 @@ This notebook focuses on managing missing or null values.
 - Check null conditions using `isNull()`  
 
 ### Purpose:
-To ensure data completeness and avoid errors during processing.
+To ensure data completeness and avoid processing errors.
 
 ---
 
 ## 4. Data Type Handling (String to Numeric)  
 
-This notebook focuses on converting and validating data types.
-
 ### Operations performed:
 - Convert string columns to numeric types  
 - Handle invalid numeric values  
-- Perform calculations after type conversion  
+- Perform calculations  
 
 ### Purpose:
-To ensure correct data types for analysis and computations.
+To ensure correct data types for analysis.
+
+---
+
+## 5. Date & Timestamp Functions  
+
+This task focuses on handling date and time data using SQL functions.
+
+### Operations performed:
+- Retrieve current date and time (`CURDATE()`, `NOW()`)  
+- Extract year, month, and day using `YEAR()`, `MONTH()`, `DAY()`  
+- Use `EXTRACT()` for flexible date part extraction  
+- Identify weekdays and weekends using `DAYNAME()` and `DAYOFWEEK()`  
+- Perform date arithmetic using `DATE_ADD()` and `DATE_SUB()`  
+- Calculate differences using `DATEDIFF()` and `TIMESTAMPDIFF()`  
+- Find first and last day of a month  
+- Format dates using `DATE_FORMAT()`  
+- Convert strings to date using `STR_TO_DATE()`  
+- Filter records based on month or date conditions  
+- Implement financial year logic using `CASE`  
+
+### Purpose:
+To manipulate, analyze, and format date/time data for real-world use cases such as reporting and time-based filtering.
 
 ---
 
 ## Key Learnings  
 
 - Importance of data cleaning before analysis  
-- How to use PySpark built-in functions effectively  
+- Effective use of PySpark functions  
 - Handling real-world messy data  
-- Using regex for pattern-based operations  
-- Managing null values to avoid incorrect results  
+- Applying regex for pattern-based operations  
+- Managing null values properly  
+- Working with date/time data for business logic  
 
 ---
 
 ## Challenges  
 
-- Dealing with inconsistent formats in string data  
+- Dealing with inconsistent string formats  
 - Writing correct regex patterns  
-- Handling null values without losing important data  
-- Ensuring safe type conversion  
+- Handling null values safely  
+- Ensuring correct type conversions  
+- Understanding date/time logic and formats  
 
 ---
 
 ## Future Scope  
 
-- Apply these techniques to large real-world datasets  
-- Combine all transformations into a data pipeline  
-- Optimize transformations for performance  
-- Integrate with SQL-based processing  
+- Build an end-to-end data pipeline combining all transformations  
+- Optimize transformations for large datasets  
+- Integrate PySpark with advanced SQL analytics  
+- Apply date-based analytics in real-world scenarios  
 
 ---
 
 ## Conclusion  
 
-This work provides a strong foundation in PySpark data preprocessing. It highlights how different types of functions can be used together to clean, transform, and prepare data for analysis.
+This project provides a strong foundation in data preprocessing using PySpark and SQL. It demonstrates how string handling, regex, null management, type conversion, and date functions work together to prepare clean and reliable data for analysis.
