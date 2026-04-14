@@ -1,0 +1,78 @@
+Analyse the month over month performance by finding the percentage change
+In sales between the current and previous months
+
+Query: Select ordered, orderdate, sales from Sales.orders
+
+To extract the month from the orderdate we are going to use month() function 
+
+Query: Select ordered, orderdate, month(orderdate) as ordermonth, sales from Sales.orders
+
+Now we need to find the total salesof each month so we can write below query
+Query: Select month(orderdate) as ordermonth, sum(sales) as currentmonthSales from Sales.orders group by month(orderdate)
+
+Now we got the current month sales so now we need to get the previous month sales so write below query
+Query: Select month(orderdate) as ordermonth, sum(sales) as currentmonthSales, lag(sum(sales)) over(order by month(orderdate)) as previousmonthSales from Sales.orders group by month(orderdate)
+
+To find the sales between the current month and previous month then we 
+Query: Select *,
+currentmonthSales – previousmonthSales as MOM_Change from 
+(Select month(orderdate) as ordermonth, sum(sales) as currentmonthSales, lag(sum(sales)) over(order by month(orderdate)) as previousmonthSales from Sales.orders group by month(orderdate) )t
+
+To find the percentage change then write like below
+Select *,
+currentmonthSales – previousmonthSales as MOM_Change,
+round(cast((currentmonthSales - previousmonthSales) as float)/previousmonthSales*100,1) as Mom_Perc
+ from 
+(Select month(orderdate) as ordermonth, sum(sales) as currentmonthSales, lag(sum(sales)) over(order by month(orderdate)) as previousmonthSales from Sales.orders group by month(orderdate) )t
+
+
+Analyze customer loyality by ranking customers based on the average number of orders between orders
+
+select ordered, customerid, orderdate from sales.orders order by customerid, orderdate
+
+1)Now lets find the difference between their orders 
+	select 
+	ordered, 
+	customerid, 
+	orderdate as currentorder
+	lead(orderdate) over(partition by customerid order by orderdate) NextOrder
+	from sales.orders order by customerid, orderdate
+2)To get the no of days between the order then we need to use datediff function
+	select 
+	ordered, 
+	customerid, 
+	orderdate as currentorder
+	lead(orderdate) over(partition by customerid order by orderdate) NextOrder,
+	datefiff(day, orderdate, lead(orderdate) over(partition by customerid order by orderdate)) Daysuntilnxtorder
+	from sales.orders order by customerid, orderdate
+
+3)To get the avg days then we need to write below query
+	select 
+	customerid,
+	avg(Daysuntilnxtorder) avgdays
+	rank() over(order by avg(Daysuntilnxtorder)) RankAvg
+	from (
+	select 
+	ordered, 
+	customerid, 
+	orderdate as currentorder
+	lead(orderdate) over(partition by customerid order by orderdate) NextOrder,
+	datefiff(day, orderdate, lead(orderdate) over(partition by customerid order by orderdate)) Daysuntilnxtorder
+	from sales.orders order by customerid, orderdate
+	)t
+	group by  customerid
+4)To remove the null values 
+	select 
+	customerid,
+	avg(Daysuntilnxtorder) avgdays
+	rank() over(order by coalesce(avg(Daysuntilnxtorder),99999) RankAvg
+	from (
+	select 
+	ordered, 
+	customerid, 
+	orderdate as currentorder
+	lead(orderdate) over(partition by customerid order by orderdate) NextOrder,
+	datefiff(day, orderdate, lead(orderdate) over(partition by customerid order by orderdate)) Daysuntilnxtorder
+	from sales.orders order by customerid, orderdate
+	)t
+	group by  customerid
