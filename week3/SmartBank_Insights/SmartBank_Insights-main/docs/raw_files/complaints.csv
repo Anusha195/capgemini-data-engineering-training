@@ -1,0 +1,501 @@
+complaint_id,customer_id,category,description,priority,status,branch_id,raised_date,resolved_date,channel
+COMP0001,CUST0881,Card Blocked,Customer raised issue regarding card blocked,Medium,Resolved,BR009,2024-12-22,2025-01-13,email
+COMP0002,CUST0633,Fraud Alert,Customer raised issue regarding fraud alert,Low,Closed,BR008,2024-07-08,2024-07-25,email
+COMP0003,CUST0525,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR006,2024-12-21,,email
+COMP0004,CUST0233,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR007,2024-07-06,,website
+COMP0005,CUST0510,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Closed,BR002,2024-07-12,2024-08-09,call_center
+COMP0006,CUST0989,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR004,2024-10-09,2024-11-08,email
+COMP0007,CUST0827,ATM Issue,Customer raised issue regarding atm issue,Critical,Resolved,BR009,2024-11-05,2024-11-25,email
+COMP0008,CUST0552,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Open,BR010,2024-10-24,,mobile_app
+COMP0009,CUST0721,Wrong Charge,Customer raised issue regarding wrong charge,High,Resolved,BR005,2024-02-15,2024-03-05,call_center
+COMP0010,CUST0718,Fraud Alert,Customer raised issue regarding fraud alert,High,In Progress,BR002,2024-05-19,,branch
+COMP0011,CUST0270,Wrong Charge,Customer raised issue regarding wrong charge,Low,Resolved,BR005,2024-05-24,2024-06-21,branch
+COMP0012,CUST0594,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Closed,BR003,2024-05-05,2024-05-23,email
+COMP0013,CUST0507,Card Blocked,Customer raised issue regarding card blocked,Low,Resolved,BR001,2024-06-06,2024-06-30,mobile_app
+COMP0014,CUST0652,Interest Dispute,Customer raised issue regarding interest dispute,Low,In Progress,BR006,2024-05-15,,mobile_app
+COMP0015,CUST0390,Loan Query,Customer raised issue regarding loan query,Low,Closed,BR008,2024-10-26,2024-11-15,mobile_app
+COMP0016,CUST0329,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Open,BR007,2024-12-21,,email
+COMP0017,CUST0785,Mobile App Bug,Customer raised issue regarding mobile app bug,High,Open,BR008,2024-03-27,,call_center
+COMP0018,CUST0288,Transfer Failed,Customer raised issue regarding transfer failed,Low,Resolved,BR001,2024-05-04,2024-05-27,branch
+COMP0019,CUST0512,ATM Issue,Customer raised issue regarding atm issue,Medium,In Progress,BR003,2024-01-19,,call_center
+COMP0020,CUST0843,KYC Pending,Customer raised issue regarding kyc pending,Low,In Progress,BR010,2024-01-01,,call_center
+COMP0021,CUST0600,KYC Pending,Customer raised issue regarding kyc pending,Low,Open,BR002,2024-05-15,,email
+COMP0022,CUST0925,Interest Dispute,Customer raised issue regarding interest dispute,Medium,Open,BR006,2024-06-11,,call_center
+COMP0023,CUST0247,Interest Dispute,Customer raised issue regarding interest dispute,Medium,Open,BR005,2024-10-16,,email
+COMP0024,CUST0492,Card Blocked,Customer raised issue regarding card blocked,High,Closed,BR009,2024-05-10,2024-05-15,mobile_app
+COMP0025,CUST0238,Loan Query,Customer raised issue regarding loan query,Medium,In Progress,BR009,2024-09-10,,mobile_app
+COMP0026,CUST0351,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,In Progress,BR005,2024-09-07,,branch
+COMP0027,CUST0573,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR004,2024-01-04,,mobile_app
+COMP0028,CUST0814,ATM Issue,Customer raised issue regarding atm issue,Critical,Resolved,BR005,2024-10-02,2024-10-09,email
+COMP0029,CUST0655,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Resolved,BR002,2024-08-22,2024-09-07,call_center
+COMP0030,CUST0209,Card Blocked,Customer raised issue regarding card blocked,Medium,Open,BR008,2024-02-18,,call_center
+COMP0031,CUST0852,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Open,BR007,2024-11-01,,mobile_app
+COMP0032,CUST0682,Loan Query,Customer raised issue regarding loan query,Medium,In Progress,BR002,2024-09-13,,mobile_app
+COMP0033,CUST0651,Branch Service,Customer raised issue regarding branch service,Low,Open,BR001,2024-09-26,,branch
+COMP0034,CUST0158,Loan Query,Customer raised issue regarding loan query,Medium,Closed,BR010,2024-11-16,2024-12-16,branch
+COMP0035,CUST0789,Wrong Charge,Customer raised issue regarding wrong charge,High,Closed,BR010,2024-06-08,2024-07-04,email
+COMP0036,CUST0434,Card Blocked,Customer raised issue regarding card blocked,High,Open,BR002,2024-10-21,,call_center
+COMP0037,CUST0358,Card Blocked,Customer raised issue regarding card blocked,Critical,In Progress,BR009,2024-07-08,,website
+COMP0038,CUST0580,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Resolved,BR001,2024-11-06,2024-11-14,website
+COMP0039,CUST0720,Card Blocked,Customer raised issue regarding card blocked,Medium,Open,BR004,2024-02-16,,email
+COMP0040,CUST0638,Mobile App Bug,Customer raised issue regarding mobile app bug,High,Resolved,BR001,2024-10-02,2024-10-22,branch
+COMP0041,CUST0671,Loan Query,Customer raised issue regarding loan query,High,Closed,BR003,2024-09-13,2024-10-03,call_center
+COMP0042,CUST0630,KYC Pending,Customer raised issue regarding kyc pending,Medium,Open,BR001,2024-07-28,,mobile_app
+COMP0043,CUST0232,Loan Query,Customer raised issue regarding loan query,Medium,In Progress,BR008,2024-07-11,,call_center
+COMP0044,CUST0971,Card Blocked,Customer raised issue regarding card blocked,Low,In Progress,BR005,2024-10-13,,mobile_app
+COMP0045,CUST0534,Fraud Alert,Customer raised issue regarding fraud alert,Medium,In Progress,BR009,2024-06-18,,email
+COMP0046,CUST0742,KYC Pending,Customer raised issue regarding kyc pending,Medium,Open,BR002,2024-01-22,,branch
+COMP0047,CUST0650,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR005,2024-09-28,2024-10-08,mobile_app
+COMP0048,CUST0609,Wrong Charge,Customer raised issue regarding wrong charge,Low,Closed,BR005,2024-01-12,2024-01-16,website
+COMP0049,CUST0877,Interest Dispute,Customer raised issue regarding interest dispute,Low,In Progress,BR003,2024-03-04,,mobile_app
+COMP0050,CUST0468,KYC Pending,Customer raised issue regarding kyc pending,Low,In Progress,BR006,2024-05-24,,website
+COMP0051,CUST0961,Branch Service,Customer raised issue regarding branch service,Medium,Open,BR001,2024-04-06,,branch
+COMP0052,CUST0708,Card Blocked,Customer raised issue regarding card blocked,Low,Open,BR004,2024-11-16,,call_center
+COMP0053,CUST0521,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,In Progress,BR010,2024-08-06,,website
+COMP0054,CUST0350,Interest Dispute,Customer raised issue regarding interest dispute,High,Resolved,BR002,2024-03-14,2024-03-21,mobile_app
+COMP0055,CUST0058,ATM Issue,Customer raised issue regarding atm issue,Critical,Closed,BR004,2024-04-23,2024-04-24,call_center
+COMP0056,CUST0163,KYC Pending,Customer raised issue regarding kyc pending,Low,Closed,BR007,2024-07-14,2024-08-10,website
+COMP0057,CUST0638,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Open,BR003,2024-08-10,,mobile_app
+COMP0058,CUST0165,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,In Progress,BR005,2024-06-19,,email
+COMP0059,CUST0576,Wrong Charge,Customer raised issue regarding wrong charge,High,Closed,BR006,2024-07-06,2024-07-09,website
+COMP0060,CUST0978,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR010,2024-12-19,,email
+COMP0061,CUST0896,Card Blocked,Customer raised issue regarding card blocked,Low,Resolved,BR008,2024-06-07,2024-07-02,mobile_app
+COMP0062,CUST0438,Loan Query,Customer raised issue regarding loan query,Critical,In Progress,BR006,2024-07-10,,website
+COMP0063,CUST0363,Branch Service,Customer raised issue regarding branch service,Critical,Resolved,BR008,2024-07-14,2024-08-02,email
+COMP0064,CUST0921,KYC Pending,Customer raised issue regarding kyc pending,Critical,Closed,BR001,2024-06-04,2024-06-22,mobile_app
+COMP0065,CUST0883,KYC Pending,Customer raised issue regarding kyc pending,Low,Closed,BR008,2024-10-24,2024-11-18,website
+COMP0066,CUST0424,Card Blocked,Customer raised issue regarding card blocked,High,Open,BR002,2024-06-19,,branch
+COMP0067,CUST0321,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Resolved,BR007,2024-09-15,2024-09-16,email
+COMP0068,CUST0894,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Resolved,BR007,2024-10-16,2024-11-05,email
+COMP0069,CUST0048,Branch Service,Customer raised issue regarding branch service,Low,Resolved,BR007,2024-07-27,2024-07-28,mobile_app
+COMP0070,CUST0226,Branch Service,Customer raised issue regarding branch service,Medium,Resolved,BR001,2024-12-10,2024-12-14,mobile_app
+COMP0071,CUST0146,Interest Dispute,Customer raised issue regarding interest dispute,High,Open,BR003,2024-01-21,,website
+COMP0072,CUST0162,Wrong Charge,Customer raised issue regarding wrong charge,High,In Progress,BR002,2024-03-25,,call_center
+COMP0073,CUST0575,ATM Issue,Customer raised issue regarding atm issue,Medium,Resolved,BR005,2024-12-27,2025-01-09,call_center
+COMP0074,CUST0920,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR006,2024-12-04,,email
+COMP0075,CUST0524,Interest Dispute,Customer raised issue regarding interest dispute,High,Closed,BR002,2024-06-22,2024-06-26,call_center
+COMP0076,CUST0690,Fraud Alert,Customer raised issue regarding fraud alert,High,Resolved,BR006,2024-09-20,2024-09-28,website
+COMP0077,CUST0321,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR009,2024-11-10,2024-11-29,website
+COMP0078,CUST0643,Fraud Alert,Customer raised issue regarding fraud alert,Low,Closed,BR010,2024-06-08,2024-06-20,website
+COMP0079,CUST0730,KYC Pending,Customer raised issue regarding kyc pending,Medium,In Progress,BR009,2024-12-16,,email
+COMP0080,CUST0082,Wrong Charge,Customer raised issue regarding wrong charge,Low,Open,BR002,2024-09-03,,mobile_app
+COMP0081,CUST0684,Card Blocked,Customer raised issue regarding card blocked,Critical,In Progress,BR002,2024-02-03,,email
+COMP0082,CUST0916,Fraud Alert,Customer raised issue regarding fraud alert,Critical,In Progress,BR004,2024-07-28,,branch
+COMP0083,CUST0579,Branch Service,Customer raised issue regarding branch service,Low,Open,BR006,2024-11-01,,email
+COMP0084,CUST0689,KYC Pending,Customer raised issue regarding kyc pending,Critical,Open,BR010,2024-11-15,,email
+COMP0085,CUST0064,ATM Issue,Customer raised issue regarding atm issue,High,Closed,BR006,2024-09-07,2024-09-16,email
+COMP0086,CUST0367,Fraud Alert,Customer raised issue regarding fraud alert,High,In Progress,BR002,2024-01-23,,email
+COMP0087,CUST0167,ATM Issue,Customer raised issue regarding atm issue,High,Open,BR009,2024-03-18,,mobile_app
+COMP0088,CUST0329,Card Blocked,Customer raised issue regarding card blocked,Low,Closed,BR009,2024-08-06,2024-08-17,email
+COMP0089,CUST0036,KYC Pending,Customer raised issue regarding kyc pending,High,Open,BR006,2024-02-20,,branch
+COMP0090,CUST0588,Loan Query,Customer raised issue regarding loan query,Critical,Resolved,BR008,2024-08-01,2024-08-28,mobile_app
+COMP0091,CUST0849,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Open,BR007,2024-02-22,,mobile_app
+COMP0092,CUST0602,Card Blocked,Customer raised issue regarding card blocked,Low,In Progress,BR006,2024-02-06,,website
+COMP0093,CUST0269,Branch Service,Customer raised issue regarding branch service,Medium,Closed,BR010,2024-06-25,2024-07-21,email
+COMP0094,CUST0603,KYC Pending,Customer raised issue regarding kyc pending,Medium,Closed,BR008,2024-12-02,2024-12-25,mobile_app
+COMP0095,CUST0598,Fraud Alert,Customer raised issue regarding fraud alert,Medium,In Progress,BR007,2024-10-27,,branch
+COMP0096,CUST0841,KYC Pending,Customer raised issue regarding kyc pending,Critical,Resolved,BR010,2024-01-14,2024-02-12,branch
+COMP0097,CUST0872,Branch Service,Customer raised issue regarding branch service,Medium,Closed,BR007,2024-02-01,2024-02-02,call_center
+COMP0098,CUST0729,Loan Query,Customer raised issue regarding loan query,High,Open,BR003,2024-01-20,,email
+COMP0099,CUST0375,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Open,BR006,2024-08-07,,email
+COMP0100,CUST0616,Card Blocked,Customer raised issue regarding card blocked,Medium,Resolved,BR007,2024-04-07,2024-04-23,email
+COMP0101,CUST0581,Branch Service,Customer raised issue regarding branch service,High,Open,BR004,2024-12-18,,mobile_app
+COMP0102,CUST0912,Branch Service,Customer raised issue regarding branch service,Critical,Open,BR002,2024-09-17,,branch
+COMP0103,CUST0645,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,In Progress,BR004,2024-08-20,,email
+COMP0104,CUST0899,Wrong Charge,Customer raised issue regarding wrong charge,Medium,In Progress,BR002,2024-05-08,,call_center
+COMP0105,CUST0283,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,Open,BR008,2024-02-05,,mobile_app
+COMP0106,CUST0516,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR004,2024-12-17,,mobile_app
+COMP0107,CUST0778,Fraud Alert,Customer raised issue regarding fraud alert,Low,Open,BR004,2024-11-06,,call_center
+COMP0108,CUST0755,ATM Issue,Customer raised issue regarding atm issue,Medium,In Progress,BR001,2024-05-10,,website
+COMP0109,CUST0301,Loan Query,Customer raised issue regarding loan query,High,Open,BR010,2024-08-17,,website
+COMP0110,CUST0101,Transfer Failed,Customer raised issue regarding transfer failed,High,Resolved,BR008,2024-02-26,2024-03-22,branch
+COMP0111,CUST0821,Card Blocked,Customer raised issue regarding card blocked,Medium,Resolved,BR010,2024-10-01,2024-10-02,call_center
+COMP0112,CUST0524,Card Blocked,Customer raised issue regarding card blocked,Medium,In Progress,BR005,2024-02-16,,branch
+COMP0113,CUST0724,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Open,BR004,2024-08-16,,email
+COMP0114,CUST0215,Card Blocked,Customer raised issue regarding card blocked,Low,In Progress,BR001,2024-06-24,,mobile_app
+COMP0115,CUST0588,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR008,2024-04-08,,call_center
+COMP0116,CUST0944,KYC Pending,Customer raised issue regarding kyc pending,Low,In Progress,BR007,2024-09-06,,call_center
+COMP0117,CUST0049,Mobile App Bug,Customer raised issue regarding mobile app bug,High,In Progress,BR010,2024-12-16,,website
+COMP0118,CUST0429,Branch Service,Customer raised issue regarding branch service,High,Resolved,BR007,2024-03-03,2024-03-06,mobile_app
+COMP0119,CUST0976,Interest Dispute,Customer raised issue regarding interest dispute,Low,Open,BR007,2024-03-02,,website
+COMP0120,CUST0141,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Resolved,BR001,2024-08-27,2024-09-21,mobile_app
+COMP0121,CUST0444,Card Blocked,Customer raised issue regarding card blocked,High,In Progress,BR007,2024-03-27,,website
+COMP0122,CUST0131,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Resolved,BR001,2024-11-28,2024-12-02,branch
+COMP0123,CUST0246,Card Blocked,Customer raised issue regarding card blocked,High,Closed,BR009,2024-12-27,2025-01-15,email
+COMP0124,CUST0028,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Open,BR009,2024-05-17,,website
+COMP0125,CUST0953,Fraud Alert,Customer raised issue regarding fraud alert,High,Resolved,BR005,2024-11-24,2024-12-13,email
+COMP0126,CUST0753,Fraud Alert,Customer raised issue regarding fraud alert,Critical,In Progress,BR006,2024-05-15,,call_center
+COMP0127,CUST0675,ATM Issue,Customer raised issue regarding atm issue,High,Closed,BR005,2024-05-05,2024-05-27,branch
+COMP0128,CUST0459,KYC Pending,Customer raised issue regarding kyc pending,Critical,In Progress,BR010,2024-05-19,,branch
+COMP0129,CUST0964,Card Blocked,Customer raised issue regarding card blocked,Critical,Resolved,BR002,2024-05-10,2024-05-19,email
+COMP0130,CUST0431,KYC Pending,Customer raised issue regarding kyc pending,Critical,Resolved,BR009,2024-02-26,2024-03-07,email
+COMP0131,CUST0164,KYC Pending,Customer raised issue regarding kyc pending,Medium,Closed,BR005,2024-07-11,2024-08-08,branch
+COMP0132,CUST0907,Branch Service,Customer raised issue regarding branch service,Medium,Open,BR005,2024-04-03,,mobile_app
+COMP0133,CUST0951,Branch Service,Customer raised issue regarding branch service,High,In Progress,BR002,2024-04-20,,branch
+COMP0134,CUST0230,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Resolved,BR005,2024-09-08,2024-09-28,call_center
+COMP0135,CUST0500,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR008,2024-12-04,,email
+COMP0136,CUST0258,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Resolved,BR002,2024-03-11,2024-04-05,branch
+COMP0137,CUST0734,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR002,2024-03-10,2024-03-26,call_center
+COMP0138,CUST0185,Loan Query,Customer raised issue regarding loan query,Critical,In Progress,BR001,2024-08-10,,branch
+COMP0139,CUST0614,Interest Dispute,Customer raised issue regarding interest dispute,High,In Progress,BR008,2024-01-22,,branch
+COMP0140,CUST0877,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR004,2024-10-20,,website
+COMP0141,CUST0680,Branch Service,Customer raised issue regarding branch service,Critical,Closed,BR004,2024-04-12,2024-04-18,branch
+COMP0142,CUST0001,Branch Service,Customer raised issue regarding branch service,High,In Progress,BR008,2024-06-12,,website
+COMP0143,CUST0914,Wrong Charge,Customer raised issue regarding wrong charge,Critical,In Progress,BR003,2024-02-17,,website
+COMP0144,CUST0288,KYC Pending,Customer raised issue regarding kyc pending,Low,Open,BR009,2024-09-12,,website
+COMP0145,CUST0578,Fraud Alert,Customer raised issue regarding fraud alert,Low,Open,BR002,2024-10-20,,email
+COMP0146,CUST0186,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR009,2024-04-10,2024-04-15,branch
+COMP0147,CUST0422,Card Blocked,Customer raised issue regarding card blocked,Medium,In Progress,BR010,2024-12-21,,email
+COMP0148,CUST0348,Loan Query,Customer raised issue regarding loan query,High,In Progress,BR004,2024-05-19,,mobile_app
+COMP0149,CUST0730,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,In Progress,BR001,2024-05-02,,website
+COMP0150,CUST0692,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR003,2024-05-25,2024-06-01,branch
+COMP0151,CUST0887,ATM Issue,Customer raised issue regarding atm issue,Low,Closed,BR004,2024-02-13,2024-02-20,call_center
+COMP0152,CUST0137,Card Blocked,Customer raised issue regarding card blocked,Medium,Open,BR009,2024-11-26,,mobile_app
+COMP0153,CUST0784,Wrong Charge,Customer raised issue regarding wrong charge,High,Resolved,BR008,2024-09-08,2024-10-05,website
+COMP0154,CUST0755,ATM Issue,Customer raised issue regarding atm issue,Critical,Open,BR003,2024-02-06,,email
+COMP0155,CUST0508,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Open,BR001,2024-03-10,,branch
+COMP0156,CUST0583,Branch Service,Customer raised issue regarding branch service,Medium,Closed,BR003,2024-05-10,2024-05-31,website
+COMP0157,CUST0369,Wrong Charge,Customer raised issue regarding wrong charge,Low,Closed,BR007,2024-10-19,2024-11-09,branch
+COMP0158,CUST0365,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Open,BR002,2024-10-15,,mobile_app
+COMP0159,CUST0519,Fraud Alert,Customer raised issue regarding fraud alert,High,Open,BR007,2024-07-12,,branch
+COMP0160,CUST0954,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Open,BR006,2024-05-10,,branch
+COMP0161,CUST0770,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Closed,BR007,2024-01-04,2024-01-26,call_center
+COMP0162,CUST0228,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,In Progress,BR006,2024-08-12,,branch
+COMP0163,CUST0026,ATM Issue,Customer raised issue regarding atm issue,Low,In Progress,BR007,2024-07-25,,website
+COMP0164,CUST0358,Interest Dispute,Customer raised issue regarding interest dispute,High,In Progress,BR010,2024-08-21,,call_center
+COMP0165,CUST0562,Card Blocked,Customer raised issue regarding card blocked,Critical,Open,BR009,2024-05-26,,email
+COMP0166,CUST0515,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,In Progress,BR001,2024-03-04,,call_center
+COMP0167,CUST0607,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,In Progress,BR007,2024-04-28,,mobile_app
+COMP0168,CUST0996,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR002,2024-03-20,,website
+COMP0169,CUST0957,ATM Issue,Customer raised issue regarding atm issue,Medium,Open,BR001,2024-03-13,,call_center
+COMP0170,CUST0239,Interest Dispute,Customer raised issue regarding interest dispute,Low,Resolved,BR001,2024-07-26,2024-08-10,email
+COMP0171,CUST0571,Wrong Charge,Customer raised issue regarding wrong charge,High,In Progress,BR003,2024-10-06,,email
+COMP0172,CUST0289,Transfer Failed,Customer raised issue regarding transfer failed,High,Resolved,BR008,2024-07-08,2024-08-03,branch
+COMP0173,CUST0443,Fraud Alert,Customer raised issue regarding fraud alert,Low,Resolved,BR006,2024-06-20,2024-07-17,branch
+COMP0174,CUST0212,Transfer Failed,Customer raised issue regarding transfer failed,High,In Progress,BR006,2024-12-28,,email
+COMP0175,CUST0163,Loan Query,Customer raised issue regarding loan query,Critical,In Progress,BR005,2024-07-14,,mobile_app
+COMP0176,CUST0888,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR007,2024-12-16,,mobile_app
+COMP0177,CUST0076,Interest Dispute,Customer raised issue regarding interest dispute,High,Closed,BR010,2024-01-09,2024-02-04,email
+COMP0178,CUST0770,KYC Pending,Customer raised issue regarding kyc pending,Medium,In Progress,BR005,2024-12-25,,call_center
+COMP0179,CUST0709,ATM Issue,Customer raised issue regarding atm issue,High,Closed,BR005,2024-03-12,2024-03-22,website
+COMP0180,CUST0461,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR005,2024-04-16,2024-04-19,website
+COMP0181,CUST0863,Transfer Failed,Customer raised issue regarding transfer failed,Low,In Progress,BR005,2024-09-20,,mobile_app
+COMP0182,CUST0935,Loan Query,Customer raised issue regarding loan query,Low,Open,BR007,2024-01-04,,email
+COMP0183,CUST0390,KYC Pending,Customer raised issue regarding kyc pending,Medium,Resolved,BR003,2024-02-04,2024-02-29,email
+COMP0184,CUST0287,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR002,2024-06-01,,email
+COMP0185,CUST0219,Interest Dispute,Customer raised issue regarding interest dispute,Low,Closed,BR009,2024-01-17,2024-02-12,website
+COMP0186,CUST0247,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR009,2024-11-08,2024-11-22,email
+COMP0187,CUST0329,Card Blocked,Customer raised issue regarding card blocked,Critical,Resolved,BR010,2024-08-19,2024-09-07,mobile_app
+COMP0188,CUST0267,Wrong Charge,Customer raised issue regarding wrong charge,High,Resolved,BR003,2024-11-19,2024-12-10,branch
+COMP0189,CUST0749,Card Blocked,Customer raised issue regarding card blocked,Medium,Closed,BR009,2024-03-26,2024-04-11,email
+COMP0190,CUST0414,Branch Service,Customer raised issue regarding branch service,High,Closed,BR009,2024-06-02,2024-06-28,mobile_app
+COMP0191,CUST0536,Transfer Failed,Customer raised issue regarding transfer failed,Critical,In Progress,BR006,2024-04-02,,website
+COMP0192,CUST0110,KYC Pending,Customer raised issue regarding kyc pending,Low,Closed,BR008,2024-09-22,2024-10-17,website
+COMP0193,CUST0268,KYC Pending,Customer raised issue regarding kyc pending,Low,Open,BR010,2024-04-22,,call_center
+COMP0194,CUST0823,Card Blocked,Customer raised issue regarding card blocked,Critical,Closed,BR002,2024-11-23,2024-12-14,website
+COMP0195,CUST0632,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Closed,BR006,2024-03-07,2024-03-22,branch
+COMP0196,CUST0021,ATM Issue,Customer raised issue regarding atm issue,Medium,Resolved,BR010,2024-11-13,2024-11-20,email
+COMP0197,CUST0076,Branch Service,Customer raised issue regarding branch service,Critical,Resolved,BR008,2024-01-12,2024-01-19,call_center
+COMP0198,CUST0043,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Closed,BR002,2024-04-22,2024-05-13,branch
+COMP0199,CUST0067,Card Blocked,Customer raised issue regarding card blocked,High,Closed,BR005,2024-02-20,2024-03-07,call_center
+COMP0200,CUST0728,Fraud Alert,Customer raised issue regarding fraud alert,High,Open,BR001,2024-04-14,,mobile_app
+COMP0201,CUST0336,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR010,2024-12-08,2024-12-13,website
+COMP0202,CUST0914,Fraud Alert,Customer raised issue regarding fraud alert,High,Open,BR002,2024-02-15,,branch
+COMP0203,CUST0853,Loan Query,Customer raised issue regarding loan query,Low,In Progress,BR008,2024-01-20,,mobile_app
+COMP0204,CUST0104,Branch Service,Customer raised issue regarding branch service,High,Closed,BR008,2024-10-02,2024-10-20,mobile_app
+COMP0205,CUST0488,Loan Query,Customer raised issue regarding loan query,Critical,In Progress,BR002,2024-07-26,,website
+COMP0206,CUST0814,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Resolved,BR010,2024-03-16,2024-03-26,mobile_app
+COMP0207,CUST0949,ATM Issue,Customer raised issue regarding atm issue,Low,Open,BR001,2024-07-21,,website
+COMP0208,CUST0934,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Resolved,BR001,2024-01-20,2024-02-12,mobile_app
+COMP0209,CUST0057,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,In Progress,BR006,2024-11-22,,mobile_app
+COMP0210,CUST0391,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Closed,BR002,2024-01-17,2024-02-16,email
+COMP0211,CUST0806,Loan Query,Customer raised issue regarding loan query,Critical,Open,BR001,2024-08-02,,branch
+COMP0212,CUST0103,ATM Issue,Customer raised issue regarding atm issue,Medium,In Progress,BR003,2024-12-04,,call_center
+COMP0213,CUST0720,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Open,BR006,2024-02-28,,branch
+COMP0214,CUST0125,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Closed,BR010,2024-04-26,2024-05-05,website
+COMP0215,CUST0115,ATM Issue,Customer raised issue regarding atm issue,Critical,Closed,BR007,2024-10-17,2024-11-15,mobile_app
+COMP0216,CUST0864,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Open,BR005,2024-10-10,,branch
+COMP0217,CUST0084,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR009,2024-03-24,,call_center
+COMP0218,CUST0372,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,Resolved,BR003,2024-10-11,2024-10-28,mobile_app
+COMP0219,CUST0125,Transfer Failed,Customer raised issue regarding transfer failed,Critical,In Progress,BR002,2024-02-28,,mobile_app
+COMP0220,CUST0021,Wrong Charge,Customer raised issue regarding wrong charge,High,Resolved,BR005,2024-10-13,2024-10-24,email
+COMP0221,CUST0037,Wrong Charge,Customer raised issue regarding wrong charge,High,In Progress,BR002,2024-09-22,,call_center
+COMP0222,CUST0938,KYC Pending,Customer raised issue regarding kyc pending,High,Open,BR006,2024-12-15,,email
+COMP0223,CUST0633,KYC Pending,Customer raised issue regarding kyc pending,Low,In Progress,BR005,2024-03-09,,call_center
+COMP0224,CUST0429,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR003,2024-04-04,2024-04-26,mobile_app
+COMP0225,CUST0645,KYC Pending,Customer raised issue regarding kyc pending,High,Closed,BR008,2024-02-28,2024-03-21,call_center
+COMP0226,CUST0158,ATM Issue,Customer raised issue regarding atm issue,Medium,Open,BR007,2024-02-23,,call_center
+COMP0227,CUST0631,Wrong Charge,Customer raised issue regarding wrong charge,Low,In Progress,BR002,2024-09-14,,mobile_app
+COMP0228,CUST0436,Interest Dispute,Customer raised issue regarding interest dispute,High,Resolved,BR009,2024-03-06,2024-03-23,mobile_app
+COMP0229,CUST0568,ATM Issue,Customer raised issue regarding atm issue,Critical,In Progress,BR010,2024-01-02,,email
+COMP0230,CUST0627,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Open,BR010,2024-07-14,,mobile_app
+COMP0231,CUST0888,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR010,2024-07-02,,call_center
+COMP0232,CUST0971,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Resolved,BR010,2024-10-03,2024-11-02,branch
+COMP0233,CUST0264,Interest Dispute,Customer raised issue regarding interest dispute,Low,Closed,BR005,2024-10-11,2024-11-08,email
+COMP0234,CUST0851,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR007,2024-06-15,2024-06-30,branch
+COMP0235,CUST0252,Interest Dispute,Customer raised issue regarding interest dispute,Low,Resolved,BR004,2024-05-06,2024-05-21,website
+COMP0236,CUST0765,Fraud Alert,Customer raised issue regarding fraud alert,Medium,In Progress,BR009,2024-08-25,,call_center
+COMP0237,CUST0150,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Closed,BR007,2024-06-09,2024-07-04,website
+COMP0238,CUST0647,Card Blocked,Customer raised issue regarding card blocked,Medium,Closed,BR005,2024-10-25,2024-11-20,email
+COMP0239,CUST0439,Card Blocked,Customer raised issue regarding card blocked,High,Resolved,BR001,2024-04-24,2024-04-25,branch
+COMP0240,CUST0160,Mobile App Bug,Customer raised issue regarding mobile app bug,High,In Progress,BR007,2024-07-11,,website
+COMP0241,CUST0301,KYC Pending,Customer raised issue regarding kyc pending,Medium,In Progress,BR004,2024-03-08,,email
+COMP0242,CUST0809,KYC Pending,Customer raised issue regarding kyc pending,Medium,In Progress,BR006,2024-07-14,,website
+COMP0243,CUST0829,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Closed,BR006,2024-08-22,2024-09-03,email
+COMP0244,CUST0620,Wrong Charge,Customer raised issue regarding wrong charge,Low,In Progress,BR010,2024-09-01,,branch
+COMP0245,CUST0207,Loan Query,Customer raised issue regarding loan query,Critical,Closed,BR002,2024-10-03,2024-11-01,email
+COMP0246,CUST0689,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Open,BR002,2024-05-03,,branch
+COMP0247,CUST0948,Mobile App Bug,Customer raised issue regarding mobile app bug,High,Open,BR007,2024-03-07,,branch
+COMP0248,CUST0363,Loan Query,Customer raised issue regarding loan query,High,In Progress,BR009,2024-02-04,,email
+COMP0249,CUST0559,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Resolved,BR001,2024-10-25,2024-10-28,mobile_app
+COMP0250,CUST0207,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Resolved,BR001,2024-06-15,2024-07-12,website
+COMP0251,CUST0772,Wrong Charge,Customer raised issue regarding wrong charge,Low,Resolved,BR002,2024-01-21,2024-02-10,website
+COMP0252,CUST0850,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Open,BR010,2024-05-10,,call_center
+COMP0253,CUST0016,ATM Issue,Customer raised issue regarding atm issue,Medium,Closed,BR008,2024-04-05,2024-04-30,branch
+COMP0254,CUST0694,Transfer Failed,Customer raised issue regarding transfer failed,High,Closed,BR010,2024-05-05,2024-05-20,mobile_app
+COMP0255,CUST0644,Loan Query,Customer raised issue regarding loan query,Low,In Progress,BR007,2024-04-06,,mobile_app
+COMP0256,CUST0830,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR002,2024-02-10,,call_center
+COMP0257,CUST0082,ATM Issue,Customer raised issue regarding atm issue,Critical,Resolved,BR004,2024-10-17,2024-11-14,mobile_app
+COMP0258,CUST0081,Card Blocked,Customer raised issue regarding card blocked,Low,Resolved,BR003,2024-07-24,2024-08-22,email
+COMP0259,CUST0138,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Open,BR007,2024-11-26,,email
+COMP0260,CUST0749,Transfer Failed,Customer raised issue regarding transfer failed,Low,Resolved,BR004,2024-09-24,2024-10-01,website
+COMP0261,CUST0894,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,Closed,BR005,2024-12-24,2024-12-29,website
+COMP0262,CUST0744,Fraud Alert,Customer raised issue regarding fraud alert,High,Resolved,BR001,2024-06-18,2024-06-28,mobile_app
+COMP0263,CUST0266,Loan Query,Customer raised issue regarding loan query,High,Closed,BR006,2024-03-26,2024-04-12,website
+COMP0264,CUST0496,Wrong Charge,Customer raised issue regarding wrong charge,High,Resolved,BR010,2024-08-19,2024-09-06,website
+COMP0265,CUST0557,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Resolved,BR006,2024-06-23,2024-07-03,branch
+COMP0266,CUST0746,Card Blocked,Customer raised issue regarding card blocked,Medium,Open,BR001,2024-01-04,,email
+COMP0267,CUST0652,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Open,BR002,2024-08-15,,website
+COMP0268,CUST0330,Card Blocked,Customer raised issue regarding card blocked,High,In Progress,BR010,2024-12-27,,branch
+COMP0269,CUST0739,KYC Pending,Customer raised issue regarding kyc pending,Critical,Closed,BR007,2024-03-24,2024-04-07,website
+COMP0270,CUST0181,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR004,2024-12-27,2024-12-28,branch
+COMP0271,CUST0764,Wrong Charge,Customer raised issue regarding wrong charge,High,Resolved,BR004,2024-10-11,2024-11-08,call_center
+COMP0272,CUST0888,KYC Pending,Customer raised issue regarding kyc pending,Critical,In Progress,BR008,2024-08-22,,call_center
+COMP0273,CUST0109,Wrong Charge,Customer raised issue regarding wrong charge,High,In Progress,BR005,2024-06-17,,mobile_app
+COMP0274,CUST0827,ATM Issue,Customer raised issue regarding atm issue,Low,In Progress,BR002,2024-12-27,,branch
+COMP0275,CUST0065,Interest Dispute,Customer raised issue regarding interest dispute,High,Open,BR008,2024-04-22,,call_center
+COMP0276,CUST0374,Branch Service,Customer raised issue regarding branch service,Medium,Closed,BR003,2024-05-27,2024-06-15,call_center
+COMP0277,CUST0128,KYC Pending,Customer raised issue regarding kyc pending,Low,Resolved,BR007,2024-10-10,2024-10-20,call_center
+COMP0278,CUST0567,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Open,BR008,2024-02-08,,email
+COMP0279,CUST0974,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Resolved,BR009,2024-11-19,2024-11-22,branch
+COMP0280,CUST0936,KYC Pending,Customer raised issue regarding kyc pending,High,In Progress,BR006,2024-07-06,,mobile_app
+COMP0281,CUST0219,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Resolved,BR004,2024-11-25,2024-12-02,branch
+COMP0282,CUST0441,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Open,BR010,2024-10-05,,website
+COMP0283,CUST0431,Branch Service,Customer raised issue regarding branch service,Critical,Resolved,BR003,2024-11-23,2024-12-09,mobile_app
+COMP0284,CUST0339,Mobile App Bug,Customer raised issue regarding mobile app bug,High,In Progress,BR007,2024-11-15,,call_center
+COMP0285,CUST0049,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Resolved,BR001,2024-07-13,2024-08-02,website
+COMP0286,CUST0107,Wrong Charge,Customer raised issue regarding wrong charge,High,Closed,BR009,2024-06-19,2024-07-17,email
+COMP0287,CUST0299,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,Resolved,BR010,2024-04-07,2024-04-11,branch
+COMP0288,CUST0090,KYC Pending,Customer raised issue regarding kyc pending,Critical,Resolved,BR005,2024-01-06,2024-01-19,call_center
+COMP0289,CUST0102,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR001,2024-12-08,2025-01-02,mobile_app
+COMP0290,CUST0256,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Resolved,BR002,2024-09-11,2024-10-09,call_center
+COMP0291,CUST0149,Fraud Alert,Customer raised issue regarding fraud alert,Low,Closed,BR006,2024-07-03,2024-07-10,branch
+COMP0292,CUST0857,Interest Dispute,Customer raised issue regarding interest dispute,Medium,Closed,BR002,2024-11-22,2024-12-02,website
+COMP0293,CUST0297,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR004,2024-01-01,2024-01-16,email
+COMP0294,CUST0802,KYC Pending,Customer raised issue regarding kyc pending,Critical,Closed,BR008,2024-05-04,2024-05-25,email
+COMP0295,CUST0921,Transfer Failed,Customer raised issue regarding transfer failed,High,Open,BR009,2024-04-04,,mobile_app
+COMP0296,CUST0251,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR004,2024-04-23,2024-05-07,call_center
+COMP0297,CUST0041,KYC Pending,Customer raised issue regarding kyc pending,Critical,Resolved,BR008,2024-12-17,2025-01-13,mobile_app
+COMP0298,CUST0414,ATM Issue,Customer raised issue regarding atm issue,Critical,Open,BR003,2024-06-01,,mobile_app
+COMP0299,CUST0737,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Closed,BR001,2024-07-19,2024-08-09,email
+COMP0300,CUST0020,Branch Service,Customer raised issue regarding branch service,High,In Progress,BR007,2024-02-02,,mobile_app
+COMP0301,CUST0526,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Resolved,BR006,2024-12-07,2024-12-12,mobile_app
+COMP0302,CUST0782,Card Blocked,Customer raised issue regarding card blocked,Critical,Resolved,BR002,2024-11-23,2024-12-02,branch
+COMP0303,CUST0185,Card Blocked,Customer raised issue regarding card blocked,Low,Resolved,BR004,2024-10-14,2024-10-31,email
+COMP0304,CUST0528,Loan Query,Customer raised issue regarding loan query,High,Closed,BR001,2024-01-01,2024-01-30,branch
+COMP0305,CUST0566,Wrong Charge,Customer raised issue regarding wrong charge,Low,Closed,BR002,2024-07-21,2024-07-28,website
+COMP0306,CUST0909,Branch Service,Customer raised issue regarding branch service,Low,In Progress,BR010,2024-11-21,,call_center
+COMP0307,CUST0489,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,In Progress,BR009,2024-02-20,,website
+COMP0308,CUST0490,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Open,BR007,2024-06-01,,branch
+COMP0309,CUST0869,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR006,2024-08-14,2024-09-07,branch
+COMP0310,CUST0106,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR008,2024-11-27,2024-12-08,call_center
+COMP0311,CUST0130,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Resolved,BR010,2024-02-11,2024-02-16,website
+COMP0312,CUST0630,Loan Query,Customer raised issue regarding loan query,Medium,Open,BR007,2024-07-11,,branch
+COMP0313,CUST0500,Interest Dispute,Customer raised issue regarding interest dispute,Medium,Open,BR004,2024-02-28,,website
+COMP0314,CUST0787,Interest Dispute,Customer raised issue regarding interest dispute,High,In Progress,BR002,2024-04-11,,call_center
+COMP0315,CUST0731,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR006,2024-06-20,,call_center
+COMP0316,CUST0976,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Resolved,BR002,2024-02-28,2024-03-16,call_center
+COMP0317,CUST0329,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Resolved,BR002,2024-07-07,2024-07-27,branch
+COMP0318,CUST0467,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Open,BR006,2024-05-18,,call_center
+COMP0319,CUST0424,Wrong Charge,Customer raised issue regarding wrong charge,Low,In Progress,BR005,2024-02-08,,email
+COMP0320,CUST0025,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR007,2024-01-23,2024-02-08,email
+COMP0321,CUST0607,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Resolved,BR008,2024-05-21,2024-06-14,email
+COMP0322,CUST0439,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR009,2024-03-04,2024-03-21,mobile_app
+COMP0323,CUST0223,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Open,BR003,2024-06-11,,website
+COMP0324,CUST0557,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Resolved,BR001,2024-06-02,2024-06-09,branch
+COMP0325,CUST0349,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Resolved,BR007,2024-06-02,2024-06-20,mobile_app
+COMP0326,CUST0331,Transfer Failed,Customer raised issue regarding transfer failed,Critical,In Progress,BR009,2024-08-26,,email
+COMP0327,CUST0301,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Open,BR004,2024-05-03,,call_center
+COMP0328,CUST0348,Loan Query,Customer raised issue regarding loan query,Medium,Resolved,BR002,2024-01-14,2024-01-26,mobile_app
+COMP0329,CUST0847,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Closed,BR007,2024-06-14,2024-07-09,call_center
+COMP0330,CUST0973,ATM Issue,Customer raised issue regarding atm issue,Critical,Closed,BR001,2024-04-20,2024-04-28,call_center
+COMP0331,CUST0385,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Closed,BR005,2024-05-28,2024-06-01,branch
+COMP0332,CUST0884,Branch Service,Customer raised issue regarding branch service,High,In Progress,BR010,2024-08-04,,branch
+COMP0333,CUST0533,Wrong Charge,Customer raised issue regarding wrong charge,Low,Open,BR004,2024-11-09,,branch
+COMP0334,CUST0638,Loan Query,Customer raised issue regarding loan query,High,In Progress,BR008,2024-12-22,,branch
+COMP0335,CUST0942,Interest Dispute,Customer raised issue regarding interest dispute,Medium,In Progress,BR001,2024-04-03,,branch
+COMP0336,CUST0448,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Resolved,BR007,2024-12-12,2024-12-16,website
+COMP0337,CUST0955,Card Blocked,Customer raised issue regarding card blocked,Critical,Closed,BR010,2024-08-17,2024-09-04,website
+COMP0338,CUST0312,KYC Pending,Customer raised issue regarding kyc pending,Critical,Resolved,BR008,2024-12-19,2025-01-04,branch
+COMP0339,CUST0102,Card Blocked,Customer raised issue regarding card blocked,Low,Closed,BR010,2024-05-14,2024-05-17,website
+COMP0340,CUST0056,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR010,2024-06-04,,branch
+COMP0341,CUST0552,Loan Query,Customer raised issue regarding loan query,Medium,Closed,BR009,2024-07-13,2024-07-30,mobile_app
+COMP0342,CUST0556,Fraud Alert,Customer raised issue regarding fraud alert,High,In Progress,BR001,2024-01-08,,call_center
+COMP0343,CUST0965,Transfer Failed,Customer raised issue regarding transfer failed,High,Open,BR004,2024-01-11,,call_center
+COMP0344,CUST0268,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Resolved,BR003,2024-01-24,2024-02-08,mobile_app
+COMP0345,CUST0383,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,In Progress,BR006,2024-03-27,,website
+COMP0346,CUST0290,Fraud Alert,Customer raised issue regarding fraud alert,High,Closed,BR007,2024-01-08,2024-01-31,website
+COMP0347,CUST0428,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Resolved,BR010,2024-03-25,2024-04-17,website
+COMP0348,CUST0490,ATM Issue,Customer raised issue regarding atm issue,High,Resolved,BR004,2024-09-14,2024-10-02,mobile_app
+COMP0349,CUST0408,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Closed,BR007,2024-08-13,2024-08-18,branch
+COMP0350,CUST0973,Loan Query,Customer raised issue regarding loan query,High,Resolved,BR006,2024-07-25,2024-07-28,email
+COMP0351,CUST0739,Loan Query,Customer raised issue regarding loan query,Low,Resolved,BR004,2024-11-17,2024-12-08,call_center
+COMP0352,CUST0701,Card Blocked,Customer raised issue regarding card blocked,High,In Progress,BR002,2024-03-28,,branch
+COMP0353,CUST0033,Branch Service,Customer raised issue regarding branch service,High,Open,BR005,2024-01-25,,branch
+COMP0354,CUST0889,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR008,2024-01-07,,mobile_app
+COMP0355,CUST0734,Card Blocked,Customer raised issue regarding card blocked,Medium,In Progress,BR008,2024-12-08,,call_center
+COMP0356,CUST0080,Loan Query,Customer raised issue regarding loan query,High,In Progress,BR005,2024-02-10,,mobile_app
+COMP0357,CUST0127,Branch Service,Customer raised issue regarding branch service,Critical,Closed,BR003,2024-02-25,2024-03-12,mobile_app
+COMP0358,CUST0621,Card Blocked,Customer raised issue regarding card blocked,Medium,In Progress,BR002,2024-01-27,,branch
+COMP0359,CUST0507,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Resolved,BR009,2024-03-03,2024-03-26,email
+COMP0360,CUST0915,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,Resolved,BR001,2024-12-16,2025-01-07,website
+COMP0361,CUST0432,Loan Query,Customer raised issue regarding loan query,Low,In Progress,BR003,2024-05-22,,branch
+COMP0362,CUST0679,Card Blocked,Customer raised issue regarding card blocked,Critical,Open,BR010,2024-07-23,,email
+COMP0363,CUST0095,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Closed,BR003,2024-08-03,2024-08-12,email
+COMP0364,CUST0496,ATM Issue,Customer raised issue regarding atm issue,Critical,Resolved,BR009,2024-12-14,2025-01-08,website
+COMP0365,CUST0447,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Closed,BR009,2024-06-23,2024-07-18,mobile_app
+COMP0366,CUST0474,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,Open,BR003,2024-02-19,,website
+COMP0367,CUST0585,Loan Query,Customer raised issue regarding loan query,Low,Closed,BR007,2024-12-24,2025-01-09,branch
+COMP0368,CUST0682,Interest Dispute,Customer raised issue regarding interest dispute,Low,Open,BR003,2024-03-21,,mobile_app
+COMP0369,CUST0592,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Resolved,BR005,2024-06-06,2024-06-21,website
+COMP0370,CUST0869,Card Blocked,Customer raised issue regarding card blocked,Medium,Open,BR001,2024-04-20,,website
+COMP0371,CUST0509,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR005,2024-07-11,2024-08-07,website
+COMP0372,CUST0315,Fraud Alert,Customer raised issue regarding fraud alert,Low,Closed,BR009,2024-11-24,2024-12-21,email
+COMP0373,CUST0616,Branch Service,Customer raised issue regarding branch service,Critical,Resolved,BR010,2024-12-07,2024-12-30,call_center
+COMP0374,CUST0008,Loan Query,Customer raised issue regarding loan query,Medium,In Progress,BR007,2024-09-28,,mobile_app
+COMP0375,CUST0514,Interest Dispute,Customer raised issue regarding interest dispute,Low,In Progress,BR008,2024-06-12,,mobile_app
+COMP0376,CUST0545,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR008,2024-12-23,2025-01-21,mobile_app
+COMP0377,CUST0909,KYC Pending,Customer raised issue regarding kyc pending,Medium,Open,BR010,2024-03-09,,mobile_app
+COMP0378,CUST0295,Loan Query,Customer raised issue regarding loan query,Low,Open,BR004,2024-03-05,,call_center
+COMP0379,CUST0355,Interest Dispute,Customer raised issue regarding interest dispute,High,Open,BR005,2024-02-05,,call_center
+COMP0380,CUST0432,Transfer Failed,Customer raised issue regarding transfer failed,High,In Progress,BR006,2024-12-25,,branch
+COMP0381,CUST0586,Card Blocked,Customer raised issue regarding card blocked,High,Resolved,BR008,2024-04-04,2024-04-14,website
+COMP0382,CUST0155,Transfer Failed,Customer raised issue regarding transfer failed,Critical,In Progress,BR003,2024-11-09,,mobile_app
+COMP0383,CUST0449,Transfer Failed,Customer raised issue regarding transfer failed,Low,In Progress,BR009,2024-03-26,,website
+COMP0384,CUST0061,Interest Dispute,Customer raised issue regarding interest dispute,Low,Open,BR001,2024-03-09,,email
+COMP0385,CUST0539,Branch Service,Customer raised issue regarding branch service,Critical,Resolved,BR002,2024-11-15,2024-12-06,website
+COMP0386,CUST0246,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Closed,BR010,2024-04-22,2024-05-20,call_center
+COMP0387,CUST0774,Fraud Alert,Customer raised issue regarding fraud alert,Medium,In Progress,BR009,2024-04-24,,call_center
+COMP0388,CUST0540,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR009,2024-12-26,,mobile_app
+COMP0389,CUST0535,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Resolved,BR009,2024-02-15,2024-02-22,website
+COMP0390,CUST0892,Transfer Failed,Customer raised issue regarding transfer failed,Low,Closed,BR006,2024-03-24,2024-03-29,call_center
+COMP0391,CUST0341,ATM Issue,Customer raised issue regarding atm issue,Critical,In Progress,BR008,2024-09-16,,call_center
+COMP0392,CUST0751,KYC Pending,Customer raised issue regarding kyc pending,Medium,Open,BR010,2024-10-17,,branch
+COMP0393,CUST0386,Branch Service,Customer raised issue regarding branch service,High,Closed,BR001,2024-11-07,2024-12-07,call_center
+COMP0394,CUST0952,Card Blocked,Customer raised issue regarding card blocked,Medium,Resolved,BR001,2024-09-13,2024-09-28,call_center
+COMP0395,CUST0737,Wrong Charge,Customer raised issue regarding wrong charge,Critical,Closed,BR003,2024-09-03,2024-10-02,branch
+COMP0396,CUST0461,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Closed,BR008,2024-09-28,2024-10-12,mobile_app
+COMP0397,CUST0687,Loan Query,Customer raised issue regarding loan query,Critical,Open,BR009,2024-02-20,,branch
+COMP0398,CUST0368,Fraud Alert,Customer raised issue regarding fraud alert,Critical,Resolved,BR007,2024-09-26,2024-10-15,website
+COMP0399,CUST0234,Loan Query,Customer raised issue regarding loan query,Low,Resolved,BR004,2024-12-16,2024-12-25,branch
+COMP0400,CUST0685,Transfer Failed,Customer raised issue regarding transfer failed,Medium,Resolved,BR003,2024-07-04,2024-07-06,call_center
+COMP0401,CUST0248,Wrong Charge,Customer raised issue regarding wrong charge,High,Closed,BR008,2024-04-13,2024-04-25,branch
+COMP0402,CUST0541,Branch Service,Customer raised issue regarding branch service,High,Open,BR010,2024-09-27,,mobile_app
+COMP0403,CUST0773,Transfer Failed,Customer raised issue regarding transfer failed,Low,In Progress,BR003,2024-10-10,,branch
+COMP0404,CUST0410,Loan Query,Customer raised issue regarding loan query,High,Closed,BR003,2024-05-15,2024-05-28,call_center
+COMP0405,CUST0614,Branch Service,Customer raised issue regarding branch service,High,Closed,BR003,2024-07-22,2024-08-14,website
+COMP0406,CUST0331,ATM Issue,Customer raised issue regarding atm issue,Low,Closed,BR003,2024-09-22,2024-10-15,email
+COMP0407,CUST0864,Loan Query,Customer raised issue regarding loan query,High,Open,BR001,2024-10-20,,website
+COMP0408,CUST0935,Branch Service,Customer raised issue regarding branch service,Critical,Closed,BR010,2024-03-26,2024-04-18,email
+COMP0409,CUST0661,KYC Pending,Customer raised issue regarding kyc pending,Low,Resolved,BR002,2024-05-20,2024-05-21,email
+COMP0410,CUST0516,Interest Dispute,Customer raised issue regarding interest dispute,Medium,Resolved,BR010,2024-08-12,2024-08-21,call_center
+COMP0411,CUST0857,Card Blocked,Customer raised issue regarding card blocked,High,In Progress,BR007,2024-05-20,,website
+COMP0412,CUST0402,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Closed,BR008,2024-12-19,2025-01-08,mobile_app
+COMP0413,CUST0468,Wrong Charge,Customer raised issue regarding wrong charge,Medium,In Progress,BR003,2024-12-14,,email
+COMP0414,CUST0892,Transfer Failed,Customer raised issue regarding transfer failed,Low,Resolved,BR004,2024-04-02,2024-04-03,call_center
+COMP0415,CUST0509,ATM Issue,Customer raised issue regarding atm issue,Medium,Closed,BR006,2024-12-02,2024-12-30,mobile_app
+COMP0416,CUST0863,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Closed,BR010,2024-04-28,2024-05-16,branch
+COMP0417,CUST0919,KYC Pending,Customer raised issue regarding kyc pending,Low,Resolved,BR006,2024-04-28,2024-05-16,mobile_app
+COMP0418,CUST0665,Fraud Alert,Customer raised issue regarding fraud alert,Low,Open,BR007,2024-09-28,,branch
+COMP0419,CUST0159,ATM Issue,Customer raised issue regarding atm issue,Critical,Resolved,BR001,2024-01-01,2024-01-14,website
+COMP0420,CUST0880,Fraud Alert,Customer raised issue regarding fraud alert,Low,Resolved,BR006,2024-09-12,2024-10-12,website
+COMP0421,CUST0225,Fraud Alert,Customer raised issue regarding fraud alert,Medium,In Progress,BR005,2024-05-11,,email
+COMP0422,CUST0967,Transfer Failed,Customer raised issue regarding transfer failed,High,In Progress,BR004,2024-03-05,,branch
+COMP0423,CUST0311,Branch Service,Customer raised issue regarding branch service,High,Resolved,BR002,2024-04-20,2024-05-16,website
+COMP0424,CUST0589,KYC Pending,Customer raised issue regarding kyc pending,Low,Closed,BR007,2024-10-20,2024-10-27,call_center
+COMP0425,CUST0961,ATM Issue,Customer raised issue regarding atm issue,Medium,Open,BR006,2024-07-19,,email
+COMP0426,CUST0602,ATM Issue,Customer raised issue regarding atm issue,Critical,Open,BR006,2024-12-22,,mobile_app
+COMP0427,CUST0613,KYC Pending,Customer raised issue regarding kyc pending,Low,Open,BR007,2024-04-14,,branch
+COMP0428,CUST0667,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Closed,BR005,2024-01-23,2024-02-18,website
+COMP0429,CUST0664,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Closed,BR004,2024-01-22,2024-02-04,website
+COMP0430,CUST0814,Fraud Alert,Customer raised issue regarding fraud alert,Medium,In Progress,BR002,2024-05-11,,call_center
+COMP0431,CUST0559,Interest Dispute,Customer raised issue regarding interest dispute,Critical,In Progress,BR009,2024-10-08,,branch
+COMP0432,CUST0800,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR006,2024-03-03,,website
+COMP0433,CUST0368,ATM Issue,Customer raised issue regarding atm issue,High,Closed,BR001,2024-09-07,2024-10-01,branch
+COMP0434,CUST0585,Mobile App Bug,Customer raised issue regarding mobile app bug,Medium,Closed,BR001,2024-05-23,2024-06-16,website
+COMP0435,CUST0363,Branch Service,Customer raised issue regarding branch service,Critical,Resolved,BR005,2024-10-18,2024-10-21,website
+COMP0436,CUST0997,Card Blocked,Customer raised issue regarding card blocked,High,Open,BR010,2024-04-18,,mobile_app
+COMP0437,CUST0362,Card Blocked,Customer raised issue regarding card blocked,Critical,Open,BR010,2024-03-16,,branch
+COMP0438,CUST0704,KYC Pending,Customer raised issue regarding kyc pending,High,Closed,BR005,2024-09-16,2024-09-18,email
+COMP0439,CUST0409,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR001,2024-12-02,,email
+COMP0440,CUST0402,ATM Issue,Customer raised issue regarding atm issue,High,Resolved,BR007,2024-02-12,2024-02-13,branch
+COMP0441,CUST0142,Loan Query,Customer raised issue regarding loan query,High,Open,BR007,2024-07-21,,email
+COMP0442,CUST0881,Transfer Failed,Customer raised issue regarding transfer failed,Critical,Open,BR006,2024-01-12,,website
+COMP0443,CUST0022,Branch Service,Customer raised issue regarding branch service,High,Resolved,BR008,2024-07-11,2024-07-27,website
+COMP0444,CUST0913,Fraud Alert,Customer raised issue regarding fraud alert,Medium,Closed,BR010,2024-12-08,2024-12-27,branch
+COMP0445,CUST0949,Fraud Alert,Customer raised issue regarding fraud alert,High,Closed,BR005,2024-04-15,2024-04-20,website
+COMP0446,CUST0864,Fraud Alert,Customer raised issue regarding fraud alert,Low,In Progress,BR006,2024-03-03,,website
+COMP0447,CUST0750,Transfer Failed,Customer raised issue regarding transfer failed,Low,Open,BR001,2024-03-15,,mobile_app
+COMP0448,CUST0929,Card Blocked,Customer raised issue regarding card blocked,Critical,Open,BR005,2024-03-09,,call_center
+COMP0449,CUST0173,Mobile App Bug,Customer raised issue regarding mobile app bug,Low,Open,BR010,2024-01-05,,mobile_app
+COMP0450,CUST0664,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR008,2024-08-07,,website
+COMP0451,CUST0112,Loan Query,Customer raised issue regarding loan query,Medium,Open,BR010,2024-09-08,,branch
+COMP0452,CUST0270,KYC Pending,Customer raised issue regarding kyc pending,Medium,In Progress,BR008,2024-09-25,,branch
+COMP0453,CUST0213,Card Blocked,Customer raised issue regarding card blocked,Critical,In Progress,BR004,2024-12-06,,website
+COMP0454,CUST0454,Card Blocked,Customer raised issue regarding card blocked,Medium,Resolved,BR007,2024-06-13,2024-07-12,website
+COMP0455,CUST0403,Transfer Failed,Customer raised issue regarding transfer failed,Low,Resolved,BR009,2024-01-02,2024-01-04,email
+COMP0456,CUST0930,Branch Service,Customer raised issue regarding branch service,High,In Progress,BR009,2024-02-11,,mobile_app
+COMP0457,CUST0853,KYC Pending,Customer raised issue regarding kyc pending,Low,Open,BR006,2024-05-08,,website
+COMP0458,CUST0705,KYC Pending,Customer raised issue regarding kyc pending,Critical,Open,BR009,2024-11-02,,mobile_app
+COMP0459,CUST0465,Fraud Alert,Customer raised issue regarding fraud alert,High,Open,BR005,2024-09-17,,branch
+COMP0460,CUST0356,Mobile App Bug,Customer raised issue regarding mobile app bug,High,Resolved,BR007,2024-07-03,2024-08-01,website
+COMP0461,CUST0674,Fraud Alert,Customer raised issue regarding fraud alert,High,Resolved,BR002,2024-08-03,2024-08-05,branch
+COMP0462,CUST0889,Transfer Failed,Customer raised issue regarding transfer failed,High,Closed,BR003,2024-07-13,2024-07-27,website
+COMP0463,CUST0567,KYC Pending,Customer raised issue regarding kyc pending,High,Resolved,BR006,2024-04-25,2024-05-23,mobile_app
+COMP0464,CUST0226,Interest Dispute,Customer raised issue regarding interest dispute,Critical,Closed,BR007,2024-06-20,2024-07-10,email
+COMP0465,CUST0634,Fraud Alert,Customer raised issue regarding fraud alert,Low,In Progress,BR004,2024-05-10,,call_center
+COMP0466,CUST0239,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR003,2024-03-13,2024-03-27,email
+COMP0467,CUST0523,Card Blocked,Customer raised issue regarding card blocked,Low,Closed,BR002,2024-05-13,2024-06-11,call_center
+COMP0468,CUST0562,Branch Service,Customer raised issue regarding branch service,Medium,Closed,BR004,2024-12-11,2024-12-29,branch
+COMP0469,CUST0676,KYC Pending,Customer raised issue regarding kyc pending,Medium,In Progress,BR002,2024-11-12,,branch
+COMP0470,CUST0646,Loan Query,Customer raised issue regarding loan query,Low,In Progress,BR006,2024-07-04,,branch
+COMP0471,CUST0969,Interest Dispute,Customer raised issue regarding interest dispute,Low,In Progress,BR008,2024-09-10,,mobile_app
+COMP0472,CUST0193,Card Blocked,Customer raised issue regarding card blocked,High,Closed,BR010,2024-04-15,2024-04-21,call_center
+COMP0473,CUST0233,Fraud Alert,Customer raised issue regarding fraud alert,Low,Closed,BR007,2024-02-20,2024-03-14,mobile_app
+COMP0474,CUST0571,Wrong Charge,Customer raised issue regarding wrong charge,Medium,Resolved,BR009,2024-09-11,2024-10-03,website
+COMP0475,CUST0971,Card Blocked,Customer raised issue regarding card blocked,Medium,Open,BR004,2024-11-23,,email
+COMP0476,CUST0713,Interest Dispute,Customer raised issue regarding interest dispute,High,Open,BR009,2024-08-10,,mobile_app
+COMP0477,CUST0281,ATM Issue,Customer raised issue regarding atm issue,Critical,In Progress,BR010,2024-08-05,,website
+COMP0478,CUST0644,Transfer Failed,Customer raised issue regarding transfer failed,Low,Closed,BR006,2024-07-11,2024-07-26,mobile_app
+COMP0479,CUST0604,Fraud Alert,Customer raised issue regarding fraud alert,Low,Closed,BR002,2024-09-08,2024-10-02,email
+COMP0480,CUST0269,Wrong Charge,Customer raised issue regarding wrong charge,High,Open,BR002,2024-09-02,,website
+COMP0481,CUST0324,Card Blocked,Customer raised issue regarding card blocked,High,Resolved,BR002,2024-10-22,2024-10-27,email
+COMP0482,CUST0107,KYC Pending,Customer raised issue regarding kyc pending,Medium,Closed,BR004,2024-05-18,2024-05-27,branch
+COMP0483,CUST0069,Transfer Failed,Customer raised issue regarding transfer failed,Low,Closed,BR001,2024-11-22,2024-12-05,email
+COMP0484,CUST0622,Mobile App Bug,Customer raised issue regarding mobile app bug,High,Resolved,BR006,2024-04-08,2024-04-24,email
+COMP0485,CUST0864,Wrong Charge,Customer raised issue regarding wrong charge,Low,Open,BR006,2024-07-20,,branch
+COMP0486,CUST0283,Transfer Failed,Customer raised issue regarding transfer failed,Low,Closed,BR005,2024-02-12,2024-03-12,mobile_app
+COMP0487,CUST0234,Loan Query,Customer raised issue regarding loan query,Critical,Closed,BR009,2024-05-01,2024-05-25,website
+COMP0488,CUST0091,Loan Query,Customer raised issue regarding loan query,High,Open,BR008,2024-09-03,,branch
+COMP0489,CUST0634,ATM Issue,Customer raised issue regarding atm issue,Critical,Open,BR010,2024-06-16,,branch
+COMP0490,CUST0673,Card Blocked,Customer raised issue regarding card blocked,High,Open,BR005,2024-10-12,,branch
+COMP0491,CUST0287,Fraud Alert,Customer raised issue regarding fraud alert,High,Resolved,BR009,2024-04-18,2024-05-04,call_center
+COMP0492,CUST0393,Branch Service,Customer raised issue regarding branch service,Low,Closed,BR003,2024-10-13,2024-10-27,branch
+COMP0493,CUST0866,Branch Service,Customer raised issue regarding branch service,Low,Resolved,BR004,2024-09-17,2024-10-16,branch
+COMP0494,CUST0392,Branch Service,Customer raised issue regarding branch service,High,In Progress,BR008,2024-12-06,,call_center
+COMP0495,CUST0668,ATM Issue,Customer raised issue regarding atm issue,Low,Closed,BR001,2024-05-24,2024-06-23,mobile_app
+COMP0496,CUST0283,Card Blocked,Customer raised issue regarding card blocked,High,Open,BR004,2024-01-22,,branch
+COMP0497,CUST0387,ATM Issue,Customer raised issue regarding atm issue,High,Resolved,BR002,2024-11-20,2024-12-10,branch
+COMP0498,CUST0524,Mobile App Bug,Customer raised issue regarding mobile app bug,Critical,In Progress,BR004,2024-01-01,,call_center
+COMP0499,CUST0505,Transfer Failed,Customer raised issue regarding transfer failed,Medium,In Progress,BR008,2024-03-06,,call_center
+COMP0500,CUST0801,Interest Dispute,Customer raised issue regarding interest dispute,Medium,Closed,BR010,2024-06-02,2024-06-11,call_center

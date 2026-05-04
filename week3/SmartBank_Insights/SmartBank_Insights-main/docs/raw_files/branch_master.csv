@@ -1,0 +1,11 @@
+branch_id,branch_name,city,state,branch_type,manager_name,established_date
+BR001,Mumbai Central,Mumbai,Maharashtra,Urban,Ravi Kumar,2005-03-10
+BR002,Pune Main,Pune,Maharashtra,Urban,Sunita Rao,2008-07-22
+BR003,Delhi North,Delhi,Delhi,Metro,Amit Singh,2003-11-05
+BR004,Delhi South,Delhi,Delhi,Metro,Priya Mehta,2010-01-18
+BR005,Bangalore Koramangala,Bangalore,Karnataka,Urban,Deepak Nair,2012-06-30
+BR006,Bangalore Whitefield,Bangalore,Karnataka,Urban,Anjali Sharma,2015-09-14
+BR007,Chennai Anna Nagar,Chennai,Tamil Nadu,Urban,Suresh Pillai,2007-04-25
+BR008,Hyderabad Hitech,Hyderabad,Telangana,Urban,Kavitha Reddy,2011-02-08
+BR009,Kolkata Park Street,Kolkata,West Bengal,Metro,Arnab Ghosh,2004-08-19
+BR010,Ahmedabad CG Road,Ahmedabad,Gujarat,Urban,Hetal Patel,2009-05-03
