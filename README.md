@@ -1,4 +1,4 @@
-# Databricks Foundations – Learning README
+# Databricks Foundations 
 
 ## Project Title  
 Databricks Data Engineering Learning Journey (Capgemini Training Program)
